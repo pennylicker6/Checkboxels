@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Beta Checkboxels</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <meta name="author" content="tiwdo">
+    <meta property="og:title" content="Checkboxels">
+    <meta property="og:description" content="A parody of the game Sandboxels, made by https://r74n.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<script src="script.js"></script>
+    <h1 class="text">Welcome to Checkboxels</h1>
+    <p class="text">This is a parody of the game Sandboxels, made by <a href="https://r74n.com" class="text">r74n.com</a>.</p>
+    <p class="text">Real game website: <a href="https://sandboxels.r74n.com/">Sandboxels</a></p><br><br>
+
+    <div id = "gameContainer">
+    <canvas id="paintCanvas" class="centered"></canvas>
+    </div><br>
+    <button id="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
 </body>
 </html>
-<!--very minimal but more to come because the javascript automates most of it-->
