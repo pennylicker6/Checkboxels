@@ -64,3 +64,7 @@ function setupDrawing(canvas, ctx, container) {
     moveEvents.forEach(ev => canvas.addEventListener(ev, draw));
     endEvents.forEach(ev => canvas.addEventListener(ev, stopDraw));
 }
+
+function reset(ctx, canvas) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
